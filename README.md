@@ -42,7 +42,7 @@ In the simulation, both the input voltage and the load current are constantly ch
 </p>
 This is the output voltage when there is no load.
 
-<br><br>
+<br>
 <p align="center" style="vertical-align: top; position: relative" >
 <img align="top" style="vertical-align:top" src="https://github.com/rajatKumar2000/3.3V-Linear-Voltage-Regulator/blob/master/Media/load_voltage.jpg" width="800" />
 </p>
@@ -50,7 +50,7 @@ This is the output voltage where there is a load of 4x 10 ohm resistors.
 <br>
 The difference between the output voltages of the no load circuit and this one is fairly negligible.
 
-<br><br>
+<br>
 <p align="center" style="vertical-align: top; position: relative" >
 <img align="top" style="vertical-align:top" src="https://github.com/rajatKumar2000/3.3V-Linear-Voltage-Regulator/blob/master/Media/load_current.jpg" width="800" />
 </p>
