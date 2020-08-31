@@ -35,4 +35,29 @@ Reference Voltage is the 3.3V pin from the Uno.
 <br><br>
 In the simulation, both the input voltage and the load current are constantly changing. Despite this, the output voltage remains stable.
 
-## Example:
+## Circuit:
+
+<p align="center" style="vertical-align: top; position: relative" >
+<img align="top" style="vertical-align:top" src="https://github.com/rajatKumar2000/3.3V-Linear-Voltage-Regulator/blob/master/Media/no_load_voltage.jpg" width="600" />
+</p>
+This is the output voltage when there is no load.
+
+<br>
+<p align="center" style="vertical-align: top; position: relative" >
+<img align="top" style="vertical-align:top" src="https://github.com/rajatKumar2000/3.3V-Linear-Voltage-Regulator/blob/master/Media/load_voltage.jpg" width="600" />
+</p>
+This is the output voltage where there is a load of 4x 10 ohm resistors.
+<br>
+The difference between the output voltages of the no load circuit and this one is fairly negligible.
+
+<br>
+<p align="center" style="vertical-align: top; position: relative" >
+<img align="top" style="vertical-align:top" src="https://github.com/rajatKumar2000/3.3V-Linear-Voltage-Regulator/blob/master/Media/load_current.jpg" width="600" />
+</p>
+This is the load current with the same load of 4x 10 ohm resistors.
+<br>
+The load is drawing 62 mA while maintaining the previously shown 3.3V.
+<br><br>
+As a reminder: We could not connect this load directly to the 3.3V pin on the Arduino.
+<br>
+That pin can only supply a <b>maximum</b> of 50 mA. Pulling 62 mA from that pin would have fried the Arduino.
